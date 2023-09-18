@@ -1,17 +1,17 @@
 <?php
-$pageTitle = "Post result";
+$pageTitle = "Get result";
 include "view-header.php";
 ?>
-<h1>Post result</h1>
+<h1>Get result</h1>
 <?php
-if (isset($_POST['my-name']))  {
+if (isset($_GET['my-name']))  {
 ?>
   <p>The value sent is:</p>
 <?php
-  echo $_POST['my-name'];
+  echo $_GET['my-name'];
 } else {
 ?>
-  <p>Nothing posted to the page.</p>
+  <p>Nothing sent to the page.</p>
 <?php
 }
 include "view-footer.php";
