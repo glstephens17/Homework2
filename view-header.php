@@ -23,7 +23,7 @@
           <a class="nav-link" href="post.php">Post</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="post-Result.php">Post Result</a>
+          <a class="nav-link" href="post-Result.php">Post result</a>
         </li> 
         <li class="nav-item">
           <a class="nav-link" href="get.php">Get</a>
